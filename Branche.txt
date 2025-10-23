@@ -1,0 +1,30 @@
+
+#  GIT BRANCH — Gérer les branches dans Git
+
+🔍 Lister les branches
+git branch           # Branches locales
+git branch -r        # Branches distantes (GitHub)
+git branch -a        # Toutes les branches (locales + distantes)
+
+🌱 Créer une branche
+git branch nom_branche        # Crée une branche locale
+git checkout -b nom_branche   # Crée + bascule dessus
+
+ 🔄 Changer de branche
+git switch change de branche
+git checkout nom_branche      # Passe sur une autre branche
+
+🧹 Supprimer une branche locale
+git branch -d nom_branche     # Supprime si fusionnée
+git branch -D nom_branche     # Supprime de force
+
+ 🚀 Créer une branche locale depuis une distante
+git checkout -b locale origin/distante
+
+🔁 Fusionner une branche dans une autre
+git checkout main
+git merge nom_branche
+
+
+ ⬆️ Pousser une branche sur GitHub
+git push -u origin nom_branche
