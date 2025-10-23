@@ -1,0 +1,3 @@
+La commande git add sert à préparer les fichiers avant un commit.
+
+Quand tu modifies, crées ou supprimes des fichiers dans ton projet, Git ne les enregistre pas automatiquement.
