@@ -1,0 +1,1 @@
+La commande git commit: permet d’enregistrer les modifications apportées aux fichiers.
